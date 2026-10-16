@@ -1,0 +1,11 @@
+# Compiled executable
+ray-tracer
+
+# Build directory
+build/
+
+# IDE settings
+.vscode/
+
+# OS files
+.DS_Store
