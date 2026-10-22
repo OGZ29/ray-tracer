@@ -2,10 +2,11 @@
 #define HITTABLE_LIST_H
 
 #include <vector>
+#include "hittable.h"
 
 class hittable_list : public hittable
 {
-  public:
+public:
     std::vector<shared_ptr<hittable>> objects;
 
     hittable_list() {}
